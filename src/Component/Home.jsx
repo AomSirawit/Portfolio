@@ -25,11 +25,11 @@ function Home() {
             </p>
           </div>
           <div className="flex justify-center">
-            <a href="/contact" className="btn btn-outline btn-primary">
-              Contact Me
+            <a href="/" className="btn btn-outline btn-primary">
+              Resume
             </a>
-            <a href="/about" className="btn btn-outline btn-primary ml-5">
-              Learn More
+            <a href="#contact" className="btn btn-outline btn-primary ml-5">
+              Contact
             </a>
           </div>
         </div>
