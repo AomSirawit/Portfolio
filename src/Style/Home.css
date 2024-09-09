@@ -1,0 +1,18 @@
+outer-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.25); 
+  }
+  
+  .typingEffect {
+    display: inline-block;
+    overflow: hidden; 
+    font-size: 40px;
+    white-space: nowrap;
+    animation: typing 2s steps(60, end) forwards infinite; 
+    margin: 0 auto; 
+  }
+  
+  /* The typing animation */
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 30% }
+  }
