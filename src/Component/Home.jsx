@@ -28,7 +28,7 @@ function Home() {
             <a href="/" className="btn btn-outline btn-primary">
               Resume
             </a>
-            <a href="#contact" className="btn btn-outline btn-primary ml-5">
+            <a href="#contact" className="btn btn-outline btn-secondary ml-5">
               Contact
             </a>
           </div>
