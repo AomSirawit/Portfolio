@@ -7,7 +7,7 @@ function About() {
       <div className="flex items-center justify-center h-screen" id="about">
         <div className="text-center">
           <div className="mt-10">
-            <h1 className="text-6xl text-primary font-bold bg-gradient-to-r from-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text outer-glow">
+            <h1 className="text-6xl text-primary font-bold bg-gradient-to-r from-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text outer-glow mb-5">
               Who Is Me?
             </h1>
             <div className="container mx-auto px-20 mt-5">

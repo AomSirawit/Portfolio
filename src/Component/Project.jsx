@@ -14,7 +14,7 @@ function Project() {
             </h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
             <figure>
               <img
                 src={ Movie }
@@ -40,7 +40,7 @@ function Project() {
             </div>
           </div>
           
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
             <figure>
               <img
                 src={ RandomTamsang }
@@ -65,8 +65,8 @@ function Project() {
             </div>
           </div>
 
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
-            <figure>
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
+        <figure>
               <img
                 src={ WebBoard }
                 alt="Shoes"
@@ -80,7 +80,7 @@ function Project() {
                 </div>
                 <div className="flex justify-end mb-5">
                 <div className="badge badge-accent badge-outline mx-1">Laravel</div>
-                <div className="badge badge-primary badge-outline mx-1">TailwindCSS</div>
+                <div className="badge badge-secondary badge-outline mx-1">Bootstrap</div>
                 <div className="badge badge-warning badge-outline mx-1">MySQL</div>
                 </div>
               </div>
