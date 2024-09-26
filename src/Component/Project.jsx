@@ -9,12 +9,12 @@ function Project() {
       <div className="flex items-center justify-center" id="project">
         <div className="text-center">
           <div className="m-5">
-            <h1 className="text-6xl text-primary font-bold bg-gradient-to-r from-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text outer-glow mb-5">
+            <h1 className="text-6xl text-primary font-bold bg-gradient-to-r from-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text outer-glow my-10">
               Project
             </h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
             <figure>
               <img
                 src={ Movie }
@@ -40,7 +40,7 @@ function Project() {
             </div>
           </div>
           
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
             <figure>
               <img
                 src={ RandomTamsang }
@@ -65,7 +65,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card card-compact w-96 shadow-xl bg-white text-neutral -z-10">
+          <div className="card card-compact w-96 shadow-xl bg-white text-neutral">
         <figure>
               <img
                 src={ WebBoard }

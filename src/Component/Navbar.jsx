@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex justify-center items-center mt-6 sticky top-5">
+    <div className="flex justify-center items-center mt-6 sticky top-5 z-10">
       <ul className="menu menu-horizontal bg-base-200 rounded-box">
         <li>
           <a className="tooltip" data-tip="Home" href="#home">
