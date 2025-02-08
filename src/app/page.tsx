@@ -1,10 +1,14 @@
+'use client';
 import { MdArrowOutward } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaAngleDoubleUp } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   type Project = {
+    id: string;
     img: string;
     title: string;
     description: string;
@@ -13,6 +17,7 @@ export default function Home() {
   };
   const projects: Project[] = [
     {
+      id: "nin-farm",
       img: "/assets/Growth.png",
       title: "หมวดนินทร์ ฟาร์ม",
       description: "ระบบจัดการออเดอร์ (Order Management System) สำหรับฟาร์มพ่อผม โดยมีฟังก์ชันการทำงานหลักๆ คือ การจัดการสินค้า การจัดการออเดอร์",
@@ -20,6 +25,7 @@ export default function Home() {
       link: "#"
     },
     {
+      id: "saboard",
       img: "/assets/saboard.png",
       title: "เว็บแอปพลิเคชันสนับสนุนงานกิจการนักศึกษาสำหรับตอบคำถามที่พบบ่่อย",
       description: "โปรเจคจบปี 4 เป็นเเว็บแอปพลิเคชันที่ใช้ระบบจัดการคอนเทนต์ (Content Management System) คือ เพิ่ม ลบ แก้ไข คำถาม ข่าวสาร หมวดหมู่ ผู้ใช้ เป็นต้น",
@@ -27,6 +33,7 @@ export default function Home() {
       link: "https://saboard.chesster.net/"
     },
     {
+      id: "finhome",
       img: "/assets/finhome.png",
       title: "Finhome",
       description: "เป็นเว็บไซต์ CMS ที่ทำกับฟรีแลนซ์อีกสองคน โดยผมทำ Frontend ด้วย ReactJS และ TailwindCSS",
@@ -34,6 +41,12 @@ export default function Home() {
       link: "https://finhome.co.th/"
     }
   ];
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
   return (
     <div className="py-10 md:py-44 mx-10">
@@ -94,12 +107,11 @@ export default function Home() {
         <div className="py-10 md:py-10">
           <h1 className="text-2xl pb-5 font-bold">Project</h1>
           {/* Map through projects */}
-          {projects.map((project, index) => (
-            <a
-              href={project.link}
-              target="_blank"
+          {projects.map((project) => (
+            <Link
+              href={`/project/${project.id}`}
               rel="noopener noreferrer"
-              key={index}
+              key={project.id}
               className="flex flex-col items-center space-y-3 h-auto rounded-md hover:bg-neutral-900 duration-300 cursor-pointer p-5 hover:scale-105"
             >
               <img className="w-56" src={project.img} alt={project.title} />
@@ -119,7 +131,7 @@ export default function Home() {
                   </span>
                 ))}
               </div>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -141,9 +153,7 @@ export default function Home() {
         </div>
 
       </div>
-
-
-
+      <button className="rounded-full bg-gray-900 text-white p-4 fixed bottom-5 right-5" onClick={scrollToTop}><FaAngleDoubleUp /></button>
     </div>
   );
 }
