@@ -1,4 +1,14 @@
-import { MdArrowOutward } from "react-icons/md";
+import { Metadata } from "next";
+
+interface ProjectDetailsProps {
+  params: { id: string };
+}
+
+export function generateMetadata({ params }: ProjectDetailsProps): Metadata {
+  return {
+    title: `Project | ${params.id}`,
+  };
+}
 
 export default function ProjectDetails({ params }: { params: { id: string } }) {
   const projects = [
