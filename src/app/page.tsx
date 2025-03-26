@@ -39,7 +39,7 @@ export default function Home() {
       description: "เป็นเว็บไซต์ CMS ที่ทำกับฟรีแลนซ์อีกสองคน โดยผมทำ Frontend ด้วย ReactJS และ TailwindCSS",
       tech: ["ReactJS", "Tailwind"],
       link: "https://finhome.co.th/"
-    }
+    },
   ];
   const scrollToTop = () => {
     window.scrollTo({

@@ -33,11 +33,26 @@ export default function Page() {
       description: "เป็นเว็บไซต์ CMS ที่ทำกับฟรีแลนซ์อีกสองคน โดยผมทำ Frontend ด้วย ReactJS และ TailwindCSS",
       tech: ["ReactJS", "Tailwind"],
       link: "https://finhome.co.th/"
-    }
+    },
+    {
+      id: "itfeature",
+      img: "/assets/itfeature.png",
+      title: "ITFeature",
+      description:
+        "เป็นเว็บไซต์รับงานฟรีแลนซ์ โดยพัฒนาด้วย Nextjs และ TailwindCSS",
+      tech: ["Nextjs", "TailwindCSS"],
+      link: "https://itfeature.vercel.app/",
+    },
+    {
+      id: "movie-search",
+      img: "/assets/MovieSearch.png",
+      title: "MovieSearch",
+      description:
+        "เป็นเว็บไซต์ที่ผมได้ฝึกการ Fetch Api โดยใช้ Api ฟรีของ OMDb API โดยพัฒนาด้วย VueJS และ TailwindCSS",
+      tech: ["VueJS", "TailwindCSS"],
+      link: "https://smovies-search.netlify.app/",
+    },
   ];
-
-
-
   return (
     <div className="py-10 md:py-44 mx-10">
       <div className="container mx-auto max-w-4xl bg-gray-900 py-10 px-5 rounded-xl shadow-md">
