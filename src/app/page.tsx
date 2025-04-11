@@ -80,8 +80,8 @@ export default function Home() {
               สำเร็จการฝึกงานเป็นระยะเวลา 4 เดือนในตำแหน่ง Web Programmer ที่บริษัท Orange Technology Solution Company Limited หน้าที่ของฉันรวมถึงการพัฒนาฟังก์ชันฝั่ง Back-end ด้วย Laravel แก้ไขปัญหาและปรับปรุงเว็บไซต์ สร้างแดชบอร์ด ออกแบบฐานข้อมูล MySQL และร่วมประชุมกับลูกค้าเพื่อประสานงานโครงการ
             </p>
             <div className="space-x-2">
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Laravel</span>
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">MySQL</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">Laravel</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">MySQL</span>
             </div>
           </div>
 
@@ -95,10 +95,10 @@ export default function Home() {
               เคยได้ร่วมงานกับฟรีแลนซ์อีกสองคนในโปรเจกต์หนึ่ง ซึ่งฉันรับหน้าที่เป็นนักพัฒนาส่วน Frontend Developer โดยใช้ ReactJS, TailwindCSS และตอนนี้ได้ออกมาทำคนเดียวในชื่อเพจ Facebook ชื่อ ITFeature และ Fastwork ชื่อ ITFeature โดย Stack ที่ใช้ คือ Laravel MySQL
             </p>
             <div className="space-x-2">
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">ReactJS</span>
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Tailwind</span>
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">Laravel</span>
-              <span className="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">MySQL</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">ReactJS</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">Tailwind</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">Laravel</span>
+              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">MySQL</span>
             </div>
           </div>
 
