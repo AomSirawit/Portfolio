@@ -11,14 +11,6 @@ export default function Page() {
   };
   const projects: Project[] = [
     {
-      id: "nin-farm",
-      img: "/assets/Growth.png",
-      title: "หมวดนินทร์ ฟาร์ม",
-      description: "ระบบจัดการออเดอร์ (Order Management System) สำหรับฟาร์มพ่อผม โดยมีฟังก์ชันการทำงานหลักๆ คือ การจัดการสินค้า การจัดการออเดอร์",
-      tech: ["Laravel", "Tailwind", "MySQL"],
-      link: "#"
-    },
-    {
       id: "saboard",
       img: "/assets/saboard.png",
       title: "เว็บแอปพลิเคชันสนับสนุนงานกิจการนักศึกษาสำหรับตอบคำถามที่พบบ่่อย",
@@ -51,6 +43,24 @@ export default function Page() {
         "เป็นเว็บไซต์ที่ผมได้ฝึกการ Fetch Api โดยใช้ Api ฟรีของ OMDb API โดยพัฒนาด้วย VueJS และ TailwindCSS",
       tech: ["VueJS", "TailwindCSS"],
       link: "https://smovies-search.netlify.app/",
+    },
+    {
+      id: "hbdtemplate",
+      img: "/assets/hbdtemplate.png",
+      title: "Happy Birthday Template",
+      description:
+        "เป็นเว็บไซต์ที่ผมได้ทำการจัดทำ Template สำหรับการ์ดวันเกิด โดยพัฒนาด้วย ReactJS และ TailwindCSS",
+      tech: ["ReactJS", "TailwindCSS"],
+      link: "https://hbd-namwan.netlify.app/",
+    },
+    {
+      id: "ramdomtamsang",
+      img: "/assets/randomtamsang.png",
+      title: "RandomTamsang",
+      description:
+        "เป็นเว็บไซต์ที่ผมได้จัดทำเนื่องจากผมเกิดปัญหาไปร้านอาหารตามสั่งแล้วไม่รู้จะสั่งอะไร เลยพัฒนาเว็บไซต์นี้ขึ้นมา",
+      tech: ["ReactJS", "TailwindCSS"],
+      link: "https://random-tamsang.netlify.app/",
     },
   ];
   return (
