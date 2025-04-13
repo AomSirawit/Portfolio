@@ -3,17 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;  /* สีพื้นหลังแบบ dark */
+  --foreground: #ededed;  /* สีตัวหนังสือแบบ light */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ไม่ต้องใช้ media query แล้ว เพราะเรา fix ให้เป็น dark mode ตลอด */
 body {
   color: var(--foreground);
   background: var(--background);
