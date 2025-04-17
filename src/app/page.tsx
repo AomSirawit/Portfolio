@@ -83,7 +83,7 @@ export default function Home() {
             มีประสบการณ์การทำงานจริงจากการฝึกงานด้านการพัฒนาเว็บที่ บริษัท
             ออเรนจ์ เทคโนโลยี โซลูชั่น จำกัด ตำแหน่ง Web Programmer โดยใช้ tools
             Laravel MySQL เป็นเวลา 4 เดือน และได้ทำฟรีแลนซ์ในตำแหน่ง Frontend
-            Developerด้านการพัฒนาเว็บไซต์ด้วย ReactJS, TailwindCSS อีกด้วย นอกจากนี้ ยังสร้างช่อง YouTube Lemon8 และ TikTok ชื่อ
+            Developer ด้านการพัฒนาเว็บไซต์ด้วย ReactJS, TailwindCSS อีกด้วย นอกจากนี้ ยังสร้างช่อง YouTube Lemon8 และ TikTok ชื่อ
             ITFeature
             เพื่อแบ่งปันความรู้และข้อมูลเชิงลึกเกี่ยวกับการเขียนโปรแกรมและการพัฒนาเว็บไซต์
           </p>
@@ -95,7 +95,7 @@ export default function Home() {
             <div className="flex">
               <p className="text-xl">🧑‍💻</p>
               <h2 className="text-xl font-semibold pb-1">
-                Web Developer Internship at Orange Technology Solution
+                Web Programmer Internship at Orange Technology Solution
               </h2>
             </div>
             <p className="text-md text-slate-400 pb-2">
