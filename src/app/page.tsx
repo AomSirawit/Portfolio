@@ -78,14 +78,12 @@ export default function Home() {
           <h1 className="text-2xl pb-5 font-bold">About</h1>
           <p className="text-md text-gray-400 text-pretty">
             {" "}
-            สวัสดี, ศิรวิทย์ มากดี
-            เป็นบัณฑิตสาขาวิทยาการคอมพิวเตอร์จากมหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร
-            มีประสบการณ์การทำงานจริงจากการฝึกงานด้านการพัฒนาเว็บที่ บริษัท
-            ออเรนจ์ เทคโนโลยี โซลูชั่น จำกัด ตำแหน่ง Web Programmer โดยใช้ tools
-            Laravel MySQL เป็นเวลา 4 เดือน และได้ทำฟรีแลนซ์ในตำแหน่ง Frontend
-            Developer ด้านการพัฒนาเว็บไซต์ด้วย ReactJS, TailwindCSS อีกด้วย นอกจากนี้ ยังสร้างช่อง YouTube Lemon8 และ TikTok ชื่อ
-            ITFeature
-            เพื่อแบ่งปันความรู้และข้อมูลเชิงลึกเกี่ยวกับการเขียนโปรแกรมและการพัฒนาเว็บไซต์
+            สวัสดีครับผม ศิรวิทย์ มากดี ผมจบการศึกษาจากสาขาวิทยาการคอมพิวเตอร์
+            คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร
+            ฉันมีประสบการณ์ฝึกงานเป็น Web Programmer intern เป็นระยะเวลา 4
+            เดือนที่บริษัท Orange Technology Solution โดยใช้ Laravel และ MySQL
+            นอกจากนี้ฉันเคยทำงานเป็นฟรีแลนซ์ร่วมกับเพื่อนอีกสองคน
+            โดยฉันรับผิดชอบในส่วนของ Frontend โดยใช้ ReactJS และ TailwindCSS
           </p>
         </div>
         <div>
@@ -102,11 +100,9 @@ export default function Home() {
               24 มิถุนายน 2024 - 11 ตุลาคม 2024
             </p>
             <p className="text-slate-400 text-md text-pretty pb-2">
-              สำเร็จการฝึกงานเป็นระยะเวลา 4 เดือนในตำแหน่ง Web Programmer
-              ที่บริษัท Orange Technology Solution Company Limited
-              หน้าที่ของฉันรวมถึงการพัฒนาฟังก์ชันฝั่ง Back-end ด้วย Laravel
-              แก้ไขปัญหาและปรับปรุงเว็บไซต์ สร้างแดชบอร์ด ออกแบบฐานข้อมูล MySQL
-              และร่วมประชุมกับลูกค้าเพื่อประสานงานโครงการ
+              หน้าที่หลักคือ
+              ดีบักและพัฒนาฟีเจอร์ใหม่บนเว็บไซต์ลูกค้าในระบบหลังบ้าน
+              (Back-office) ที่พัฒนาด้วย Laravel และ MySQL และ ดำเนินการตรวจสอบความปลอดภัยของไฟล์เว็บไซต์เพื่อค้นหาไวรัสและสคริปต์ที่เป็นอันตราย
             </p>
             <div className="space-x-2">
               <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">
@@ -125,13 +121,11 @@ export default function Home() {
                 Web Developer Freelance
               </h2>
             </div>
-            <p className="text-md text-slate-400 pb-2">2024 - ปัจจุบัน</p>
+            <p className="text-md text-slate-400 pb-2">มิถุนายน 2024 - กันยายน 2024</p>
             <p className="text-slate-400 text-md text-pretty pb-2">
               เคยได้ร่วมงานกับฟรีแลนซ์อีกสองคนในโปรเจกต์หนึ่ง
               ซึ่งฉันรับหน้าที่เป็นนักพัฒนาส่วน Frontend Developer โดยใช้
-              ReactJS, TailwindCSS และตอนนี้ได้ออกมาทำคนเดียวในชื่อเพจ Facebook
-              ชื่อ ITFeature และ Fastwork ชื่อ ITFeature โดย Stack ที่ใช้ คือ
-              Laravel MySQL
+              ReactJS, TailwindCSS
             </p>
             <div className="space-x-2">
               <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">
@@ -139,12 +133,6 @@ export default function Home() {
               </span>
               <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">
                 Tailwind
-              </span>
-              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">
-                Laravel
-              </span>
-              <span className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">
-                MySQL
               </span>
             </div>
           </div>
@@ -200,7 +188,10 @@ export default function Home() {
             <a target="_blank" href="https://github.com/AomSirawit">
               <FaGithub />{" "}
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/sirawit-makdee-415714277/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sirawit-makdee-415714277/"
+            >
               <FaLinkedin />{" "}
             </a>
           </div>
