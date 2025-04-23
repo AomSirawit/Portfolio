@@ -57,6 +57,15 @@ const projects = [
     tech: ["ReactJS", "TailwindCSS"],
     link: "https://random-tamsang.netlify.app/",
   },
+  {
+    id: "nextjsfetchapi",
+    img: "/assets/nextjsfetchapi.png",
+    title: "Nextjs Fetch API", 
+    description:
+      "เป็นเว็บไซต์ที่ผมได้ทำการลองฝึก Fetch API ของ DummyJson โดยใช้ Nextjs และ TailwindCSS",
+      tech: ["Nextjs", "TailwindCSS"],
+    link: "https://nextjs-dummyjson.netlify.app/",
+  }
 
 ];
 
