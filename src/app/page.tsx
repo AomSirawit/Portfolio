@@ -80,10 +80,10 @@ export default function Home() {
             {" "}
             สวัสดีครับผม ศิรวิทย์ มากดี ผมจบการศึกษาจากสาขาวิทยาการคอมพิวเตอร์
             คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร
-            ฉันมีประสบการณ์ฝึกงานเป็น Web Programmer intern เป็นระยะเวลา 4
+            ผมมีประสบการณ์ฝึกงานเป็น Web Programmer intern เป็นระยะเวลา 4
             เดือนที่บริษัท Orange Technology Solution โดยใช้ Laravel และ MySQL
-            นอกจากนี้ฉันเคยทำงานเป็นฟรีแลนซ์ร่วมกับเพื่อนอีกสองคน
-            โดยฉันรับผิดชอบในส่วนของ Frontend โดยใช้ ReactJS และ TailwindCSS
+            นอกจากนผมเคยทำงานเป็นฟรีแลนซ์ร่วมกับเพื่อนอีกสองคน
+            โผมรับผิดชอบในส่วนของ Frontend โดยใช้ ReactJS และ TailwindCSS
           </p>
         </div>
         <div>
@@ -124,7 +124,7 @@ export default function Home() {
             <p className="text-md text-slate-400 pb-2">มิถุนายน 2024 - กันยายน 2024</p>
             <p className="text-slate-400 text-md text-pretty pb-2">
               เคยได้ร่วมงานกับฟรีแลนซ์อีกสองคนในโปรเจกต์หนึ่ง
-              ซึ่งฉันรับหน้าที่เป็นนักพัฒนาส่วน Frontend Developer โดยใช้
+              ซึผมรับหน้าที่เป็นนักพัฒนาส่วน Frontend Developer โดยใช้
               ReactJS, TailwindCSS
             </p>
             <div className="space-x-2">
